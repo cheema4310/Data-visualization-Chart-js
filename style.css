@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+body{
+    padding-top: 20px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-div {
+    position: relative;
+    
+}
+
+.flavor li{
+    position: absolute;
+    list-style: none;
+    font-size: 1.8rem;
+    color: black;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.flavor .sour{
+    top: 100px;
+    left: -22px;
+    transform: rotate(-68deg);
+}
+.flavor .crunchy{
+    top: -18px;
+    left: 80px;
+    transform: rotate(-20deg);
+}
+.flavor .spicy{
+    bottom: 110px;
+    right: -25px;
+    transform: rotate(-68deg);
+}
+.flavor .salty{
+    top: 100px;
+    right: -23px;
+    transform: rotate(65deg);
+}
+.flavor .sweet{
+    top: -20px;
+    right: 95px;
+    transform: rotate(20deg);
+}
+.flavor .smokey{
+    bottom: -5px;
+    left: 80px;
+    transform: rotate(20deg);
+}
+.flavor .rich{
+    bottom: 0;
+    right: 85px;
+    transform: rotate(-25deg)
+}
+.flavor .savoury{
+    bottom: 110px;
+    left: -35px;
+    transform: rotate(68deg)
+}
+
+
+
+
+/* SVG file */
+
+
+.svgFile object{
+    position: absolute;
+    top: 150px;
+    right: 150px;
+    z-index: -1;
+}
